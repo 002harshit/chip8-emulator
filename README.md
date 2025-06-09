@@ -82,7 +82,6 @@ A	0	B	F
 ## Instruction
 - I'm using [this] (http://devernay.free.fr/hacks/chip8/schip.txt) reference, it also specifies instructions for super chip8
 - Instructions marked with (*) are new in SUPER-CHIP.
-```
 - [ ] 00CN* Scroll display N lines down
 - [x] 00E0 Clear display 
 - [x] 00EE Return from subroutine
@@ -126,7 +125,6 @@ A	0	B	F
 - [x] FX65 Read V0..VX from memory starting at M(I)
 - [ ] FX75* Store V0..VX in RPL user flags (X <= 7)
 - [ ] FX85* Read V0..VX from RPL user flags (X <= 7) 
-```
 
 ## Tests passed
 - Test suite taken from https://github.com/Timendus/chip8-test-suite
